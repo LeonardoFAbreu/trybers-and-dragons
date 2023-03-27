@@ -1,5 +1,5 @@
 // COMMIT INICIAL
 
-// import Battle from './Battle';
+import Battle from './Battle';
 
-// export default Battle;
+export default Battle;
