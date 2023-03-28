@@ -1,10 +1,10 @@
-import Energy from '../Energy';
+import IEnergy from '../Energy';
 
 export default interface IFighter {
   lifePoints: number;
   strength: number;
   defense: number;
-  energy?: Energy;
+  energy?: IEnergy;
   attack(enemy: IFighter): void;
   special?(enemy: IFighter): void;
   levelUp(): void;
